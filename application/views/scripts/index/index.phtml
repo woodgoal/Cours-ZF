@@ -1,6 +1,10 @@
-<!DOCTYPE html>
+<?php 
+$this->headMeta()->appendName ('Keywords', 'ip-formation, formation');
+$this->headMeta()->appendName ('Description', 'ip-formation, formation');
+$this->headTitle('Home page'); // Helper : Gérer dans le layout 
+$this->headLink()->appendStylesheet('/css/specifique_page.css', 'screen'); 
+?>
 
-<body>
 <h1>Index <?php echo $this->toto ?></h1>
-</body>
-</html>
+
+<p>Date du jour <?php echo $this->formatDate('2011-08-02')?></p>
