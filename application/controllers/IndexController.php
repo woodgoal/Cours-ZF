@@ -1,9 +1,19 @@
 <?php 
 
-class IndexController extends Zend_Controller_Action 
+class IndexController extends Zend_Controller_Action
 {
-    public function indexAction() 
+    public function indexAction()
     {
-        $this->view->toto = '123456789'; 
-    }   
+            
+    }
+    
+    public function aboutAction()
+    {
+
+    }
+    
+    public function sitemapAction()
+    {
+        $this->_helper->layout()->disableLayout();
+    }
 }

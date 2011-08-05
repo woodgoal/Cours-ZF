@@ -17,15 +17,21 @@
  * @subpackage Helper
  */
 
-/** @category   Ip
-  * @package    Ip_View
-  * @subpackage Helper
-  */
 
-class Ip_View_Helper_FormatDate extends Zend_View_Helper_Abstract {
-    
+/**
+ * @category   Ip
+ * @package    Ip_View
+ * @subpackage Helper
+ */
+class Ip_View_Helper_FormatDate extends Zend_View_Helper_Abstract
+{
+    /**
+     * formats a date
+     * @param string $date
+     * @return string
+     */
     public function formatDate($date)
     {
-        return 'Jeudi 24 Novembre';
+        return 'Jeudi 12 Novembre';
     }
-}    
+}

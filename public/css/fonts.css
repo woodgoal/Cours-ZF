@@ -15,7 +15,7 @@
 }
 
 .huge, h1 {
-    font-size: 25px;
+    font-size: 68px;
     line-height: 72px;
     letter-spacing: -1px;
 }
@@ -37,7 +37,6 @@
 
 body {
     font: 11px/16px Verdana, Arial, Helvetica, “Trebuchet MS”, Tahoma, Geneva, “Lucida Sans Unicode”, “Lucida Grande”, “MS Sans Serif”, sans-serif;
-	margin : 15px 30px; 
 }
 
 .small, small {
